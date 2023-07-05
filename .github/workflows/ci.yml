@@ -15,8 +15,6 @@ jobs:
         with:
           java-version: 11
 
-      # ... Other necessary steps ...
-
       - name: SonarQube Analysis on Overall Code
         continue-on-error: true
         run: |
